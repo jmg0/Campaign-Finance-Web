@@ -1,0 +1,38 @@
+{
+  "name": "cf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@githubprimer/octicons-react": "^8.5.0",
+    "@primer/octicons": "^9.3.1",
+    "@primer/octicons-react": "^9.3.1",
+    "gh-pages": "^2.2.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-particles-js": "^2.7.0",
+    "react-scripts": "^3.3.0",
+    "react-tooltip": "^3.11.2",
+    "tachyons": "^4.11.1"
+  },
+  "homepage": "https://jmg0.github.io/Campaign-Finance-Web-2/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

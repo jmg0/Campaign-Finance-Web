@@ -1,0 +1,19 @@
+.abo {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 300;
+    color: #c1c1c1;
+    line-height: 1.7;
+    font-size: 1.13vw;
+}
+
+@media only screen and (max-device-width: 500px) {
+    .exp {
+        font-size-adjust: inherit;
+        font-size: 6vw;
+    }
+
+    .abo {
+        font-size-adjust: inherit;
+        font-size: 4.5vw;
+    }
+}
