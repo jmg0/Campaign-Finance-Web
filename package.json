@@ -14,7 +14,7 @@
     "react-tooltip": "^3.11.2",
     "tachyons": "^4.11.1"
   },
-  "homepage": "https://jmg0.github.io/Campaign-Finance-Web-2/",
+  "homepage": "https://jmg0.github.io/Campaign-Finance-Web-1/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
