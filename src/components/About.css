@@ -6,6 +6,17 @@
     font-size: 1.13vw;
 }
 
+.smaller {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #c1c1c1;
+    line-height: 1.7;
+    font-size: 1vw;
+}
+
+.ul {
+    margin-bottom: 16px;
+}
+
 @media only screen and (max-device-width: 500px) {
     .exp {
         font-size-adjust: inherit;

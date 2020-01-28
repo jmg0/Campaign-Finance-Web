@@ -9,6 +9,7 @@ import BackButton from "../components/BackButton";
 import CandidateMap from "../components/CandidateMap";
 import ReactTooltip from 'react-tooltip'
 import About from "../components/About";
+import AboutNav from "../components/AboutNav";
 
 const particlesOptions = {
   particles: {
