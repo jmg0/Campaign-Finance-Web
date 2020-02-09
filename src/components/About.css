@@ -20,11 +20,22 @@
 @media only screen and (max-device-width: 500px) {
     .exp {
         font-size-adjust: inherit;
-        font-size: 6vw;
+        font-size: 8vw;
     }
 
     .abo {
         font-size-adjust: inherit;
-        font-size: 4.5vw;
+        font-size: 6vw;
+    }
+
+    .smaller {
+        font-family: 'IBM Plex Mono', monospace;
+        color: #c1c1c1;
+        line-height: 1.7;
+        font-size: 5.5vw;
+    }
+
+    .appbur {
+        width: 4vw;
     }
 }

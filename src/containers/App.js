@@ -9,7 +9,6 @@ import BackButton from "../components/BackButton";
 import CandidateMap from "../components/CandidateMap";
 import ReactTooltip from 'react-tooltip'
 import About from "../components/About";
-import AboutNav from "../components/AboutNav";
 
 const particlesOptions = {
   particles: {
@@ -129,8 +128,8 @@ class App extends Component {
                       </div>
                       :
                           <div>
-                            <h1 className=''>2020 Presidential Campaign Contributions</h1>
-                            <hr />
+                            <h1 className='abtitle'>2020 Presidential Campaign Contributions</h1>
+                            <hr className='abtitle' />
                             <div className='flex'>
                               <div className='bbut'>
                                 <BackButton onBackButtonChange={this.onBackButtonChange} />

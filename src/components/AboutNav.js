@@ -69,7 +69,7 @@ export default function NavTabs() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static">
+            <AppBar className='appbur' position="static">
                 <Tabs
                     variant="fullWidth"
                     value={value}
@@ -120,7 +120,7 @@ export default function NavTabs() {
             <TabPanel value={value} index={3}>
                 <h2 className='underline'>Pitfalls</h2>
                 <p className='abo'>
-                    The paragraphs above describe the first and more significant pitfall of this project: an everyday person who contributed $5,600.00 over the course of 2019 is represented on the map exactly the same as a person who contributed $360,000.00 to a campaign's affiliated JFC. Technically, only $5,600.00 of each contributor's money was transferred to the official campaign bank account, but the leftover funds from the latter contribution can also be used to support the candidate and campaign. The two contributors have made considerably different levels of financial impact on the campaign, but their representations on the map are identical. Thus, the financial support base of a candidate is unclear without appropriately illustrating these kinds of larger contributions.
+                    The Explanation section describes the first and more significant pitfall of this project: an everyday person who contributed $5,600.00 over the course of 2019 is represented on the map exactly the same as a person who contributed $360,000.00 to a campaign's affiliated JFC. Technically, only $5,600.00 of each contributor's money was transferred to the official campaign bank account, but the leftover funds from the latter contribution can also be used to support the candidate and campaign. The two contributors have made considerably different levels of financial impact on the campaign, but their representations on the map are identical. Thus, the financial support base of a candidate is unclear without appropriately illustrating these kinds of larger contributions.
                 </p>
                 <p className='abo'>
                     Luckily, JFCs and some PACs are required to report their contributions. To illustrate these contributions, the next update of this website will contain additional maps that display each candidate's larger-money base. Specifically, the large-money base contains those whose contributions to an affiliated committee totaled more than the individual contribution limits. This, however, also comes with a caveat: a PAC or JFC might not spend all or even any of a contributor's excess money on a single candidate, so how can these contributions be fairly quantified? It would be unfair to attribute a contributor's money to a specific campaign if, in reality, their money was spent elsewhere. Keep an eye out for the next release, which addresses this in great detail!
@@ -134,7 +134,7 @@ export default function NavTabs() {
                 <p className='abo'>
                     More than anything, these maps tell us that many data points are missing. As shown on each candidate's page, unitemized individual contributions often comprise an enormous portion of a candidate's contribution total. These represent hundreds of thousands of smaller donations and unique contributors that cannot be represented because none of their information is passed on by campaigns. On the other end of the scale, large money contributions that do not go directly to a campaign, but work to influence elections on their behalf, are also largely unrepresentable. These two factors make the financing of campaigns an opaque process, where the everyday citizen cannot be sure of what or who is footing the bill behind the scenes. For this process to be fully transparent to the everyday citizen (and for these maps to illustrate a complete picture of campaign finance), the following are needed:
                     <ol>
-                        <li type='1'>Full contribution reporting from all campaigns. How can the everyday citizen accurately determine who is funding a campaign, which people are financially representative of a candidacy, if large segments of contribution details are excluded from public reporting?</li>
+                        <li type='1'>Full contribution reporting from all campaigns. How can the everyday citizen accurately determine who is funding a campaign-that is, which people are financially representative of a candidacy-if large segments of contribution details are excluded from public reporting?</li>
                         <li>More detailed reporting on the origin, impact, and use of large contributions made to PACs, JFCs, and other less regulated political committees. An alternative to this is a legislative response, which would prevent these kinds of contributions from happening.</li>
                     </ol>
                 </p>
@@ -145,46 +145,3 @@ export default function NavTabs() {
         </div>
     );
 }
-
-
-// import React from 'react';
-// import { makeStyles } from '@material-ui/core/styles';
-// import Paper from '@material-ui/core/Paper';
-// import Tabs from '@material-ui/core/Tabs';
-// import Tab from '@material-ui/core/Tab';
-//
-// const useStyles = makeStyles({
-//     root: {
-//         flexGrow: 1,
-//         backgroundColor: '#181B1B',
-//         textDecorationColor: '#bebebe',
-//         color: '#bebebe',
-//     },
-// });
-//
-// export default function CenteredTabs() {
-//     const classes = useStyles();
-//     const [value, setValue] = React.useState(0);
-//
-//     const handleChange = (event, newValue) => {
-//         setValue(newValue);
-//     };
-//
-//     return (
-//         <Paper className={classes.root}>
-//             <Tabs
-//                 value={value}
-//                 onChange={handleChange}
-//                 indicatorColor="primary"
-//                 textColor="primary"
-//                 centered
-//             >
-//                 <Tab label={<span style={{ color: '#bebebe' }}>About</span>} />
-//                 <Tab label={<span style={{ color: '#bebebe' }}>Key Terms</span>} />
-//                 <Tab label={<span style={{ color: '#bebebe' }}>Explanation</span>} />
-//                 <Tab label={<span style={{ color: '#bebebe' }}>Pitfalls</span>} />
-//                 <Tab label={<span style={{ color: '#bebebe' }}>Conclusion</span>} />
-//             </Tabs>
-//         </Paper>
-//     );
-// }
