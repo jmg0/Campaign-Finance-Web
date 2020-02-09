@@ -84,6 +84,7 @@ export default function NavTabs() {
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
+                <h2 className='underline'>About</h2>
                 <p className='abo'>
                     This project analyzes and illustrates individual contributions to presidential campaigns pursuing the 2020 presidential election. Campaign contribution data is reported by each campaign to the <a className='color-inherit' href='https://www.fec.gov'>Federal Election Commission</a>, who then provide the data to the public. The project analyzed contributions made from January 1, 2019 to present, and will continually update as future data become available.
                 </p>
@@ -93,9 +94,9 @@ export default function NavTabs() {
                 <ul>
                     <li className='abo ul'><span className=' fw8'>Contribution</span><span className='smaller'> - a gift or deposit of money or anything of value given to influence a federal election; subject to limits and reporting requirements defined and enforced by the FEC</span></li>
                     <li className='abo ul'><span className=' fw8'>Contribution Reporting Requirements</span><span className='smaller'> - FEC rules stipulating that campaigns must record the name, address, occupation, contribution date, and contribution amount of each contributor</span></li>
-                    <li className='abo ul'><span className=' fw8'>Itemized Contribution</span><span className='smaller'> - contributions for which the contributor name, address, occupation, contribution date, and contribution amount have been reported; mandatory for contributions exceeding $200.00</span></li>
+                    <li className='abo ul'><span className=' fw8'>Itemized Contribution</span><span className='smaller'> - contributions for which the contributor name, address, occupation, contribution date, and contribution amount have been reported; mandatory for campaign contributions exceeding $200.00</span></li>
                     <li className='abo ul'><span className=' fw8'>Unitemized Contribution</span><span className='smaller'> - contributions less than $200.00 for which no information about the contributor or contribution has been reported; published as a single sum total of all unitemized contributions</span></li>
-                    <li className='abo ul'><span className=' fw8'>Joint Fundraising Committee (JFC)</span><span className='smaller'> - a committee that fundraises for multiple committees at the same time</span></li>
+                    <li className='abo ul'><span className=' fw8'>Joint Fundraising Committee (JFC)</span><span className='smaller'> - a committee that fundraises for multiple committees simultaneously</span></li>
                     <li className='abo ul'><span className=' fw8'>Political Action Committee (PAC)</span><span className='smaller'> - a committee that is not a political party committee or an authorized committee of a candidate</span></li>
                     <li className='abo ul'><span className=' fw8'>Super PAC</span><span className='smaller'> - a political action committee that can receive unlimited contributions from individuals, corporations, labor organizations, and other political committees, and can only make independent expenditures</span></li>
                     <li className='abo ul'><span className=' fw8'>Independent Expenditure</span><span className='smaller'> - an expenditure for a communication that advocates the election or defeat of a candidate, created without cooperation or consultation with any candidate or their affiliated committees</span></li>
